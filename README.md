@@ -48,7 +48,7 @@ LIME-CarValuator/
 
 ```bash
 git clone https://github.com/yourusername/LIME-CarValuator.git
-cd CarPriceXplainML
+cd LIME-CarValuator
 ````
 
 2. Install dependencies:
@@ -74,6 +74,9 @@ jupyter notebook car_price_prediction.ipynb
 ## 👤 Author
 
 **Isha Patel**
+
+⭐️ Give it a Star!
+If you found this project helpful or inspiring, consider giving it a ⭐️ on GitHub to show your support!
 
 
 
