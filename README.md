@@ -1,69 +1,85 @@
-# 🚗 CarPriceXplainML
 
-An advanced Car Price Prediction System using Machine Learning and Explainable AI (LIME). This project not only predicts used car prices but also explains the reasoning behind each prediction using XAI techniques.
+# 🚗 LIME-CarValuator
 
----
+**LIME-CarValuator** is a Machine Learning–based car price prediction project that not only forecasts the price of used cars, but also explains **why** those prices are predicted using **LIME (Local Interpretable Model-Agnostic Explanations)**. This ensures model transparency and builds trust with users.
+
 
 ## 📌 Features
 
-- End-to-end ML pipeline with preprocessing, EDA, modeling
-- Trained with Random Forest & XGBoost
-- Explainable AI: LIME-based feature attribution
-- Future price depreciation estimator (planned)
-- Live predictions via Streamlit GUI
-- Clean visualizations and model insights
+- End-to-end ML pipeline: loading data, preprocessing, training, and evaluation
+- Models used: **Random Forest**, **XGBoost**
+- Visualizations for data understanding and feature importance
+- **LIME explainability** to interpret individual predictions
+- Clean, well-documented Jupyter Notebook (`car_price_prediction.ipynb`)
 
----
 
-## 🧠 Models Used
+## 🧠 Tech Stack
 
-- Random Forest Regressor
-- XGBoost Regressor
-- LIME (Local Interpretable Model-Agnostic Explanations)
+- Python 3
+- Pandas, NumPy
+- Scikit-learn
+- XGBoost
+- LIME
+- Matplotlib, Seaborn
 
----
 
-## 📂 Project Structure
+
+## 📁 Project Structure
 
 ```
-CarPriceXplainML/
-├── car_price_prediction.ipynb      # Main notebook
-├── streamlit_app/
-│   ├── app.py                      # Streamlit GUI
-│   └── utils.py                    # Utility functions
-├── data/                           # Dataset files
-├── images/                         # Plots and screenshots
-├── requirements.txt                # Python dependencies
-├── .gitignore
-└── README.md
-```
 
----
+LIME-CarValuator/
+│
+├── car\_price\_prediction.ipynb    # Main notebook
+├── requirements.txt              # List of Python dependencies
+├── .gitignore                    # Git ignore rules
+├── README.md                     # You're here!
+│
+├── data/                         
+└── images/                      
 
-## 🚀 Getting Started
+````
+
+
+
+## 🚀 How to Run
+
+1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/CarPriceXplainML.git
+git clone https://github.com/yourusername/LIME-CarValuator.git
 cd CarPriceXplainML
+````
+
+2. Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
+
+3. Launch the notebook:
+
+```bash
 jupyter notebook car_price_prediction.ipynb
 ```
 
-To launch Streamlit GUI:
-```bash
-cd streamlit_app
-streamlit run app.py
-```
-
 ---
 
-## 🧾 License
+## 🔍 What is LIME?
 
-MIT License
+**LIME (Local Interpretable Model-Agnostic Explanations)** helps explain **why** your ML model made a particular prediction. It works by perturbing the input and observing changes in prediction to understand the influence of each feature.
 
----
 
-## 🙋‍♀️ Author
 
-**Isha Patel**  
-GitHub: [yourusername](https://github.com/yourusername)
+## 👤 Author
+
+**Isha Patel**
+
+
+
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+
